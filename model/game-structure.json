@@ -1,0 +1,428 @@
+[
+    {
+        "sprint": 0,
+        "day": 0,
+        "title": "Antes de comenzar",
+        "description": "Lean atentamente las reglas y completen los pasos de la preparación del juego antes de continuar.",
+        "button": "continue"
+    },
+    {
+        "sprint": 1,
+        "day": 0,
+        "title": "Sprint Backlog:",
+        "description": "Cada sprint comienza decidiendo qué tareas tomarán para el mismo y pasando esas tareas a la columna pendiente. No se olviden de comenzar y pausar el timer.",
+        "button": "timer"
+    },
+    {
+        "sprint": 1,
+        "day": 0,
+        "title": "División de tareas",
+        "description": "Se asignan las tareas en el Trello. Las tareas elegidas pasarán a la columna en curso. Cada integrante puede elegir más de una tarea y pueden quedar tareas sin elegir aún para ser tomadas más tarde durante el sprint",
+        "button": "timer"
+    },
+    {
+        "sprint": 1,
+        "day": 1,
+        "title": "Comienzo de la jornada",
+        "description": "Cada integrante elije una tarjeta de acción de su mano para usar como acción durante la jornada. ",
+        "button": "continue"
+    },
+    {
+        "sprint": 1,
+        "day": 1,
+        "title": "Cambio de situación",
+        "description": "Una vez que todos los integrantes eligieron su acción, el Scrum master sacará una tarjeta de situación antes de comenzar la daily.",
+        "button": "situation"
+    },
+    {
+        "sprint": 1,
+        "day": 1,
+        "title": "Daily",
+        "description": "Comienza la daily. La misma no puede durar más de 2 minutos y cada integrante debe decir qué acción tomó y cuántos puntos avanza en cada una de sus tareas. Se sustraen los puntos de esfuerzo, modificados por la tarea de situación de cada tarea. Si los puntos restantes son menor o igual a cero entonces esa tarjeta pasa a revisión. Si la tarea no fue completada, queda para la siguiente jornada.",
+        "button": "timer"
+    },
+    {
+        "sprint": 1,
+        "day": 2,
+        "title": "Comienzo de la jornada",
+        "description": "Cada integrante elije una tarjeta de acción de su mano para usar como acción durante la jornada. ",
+        "button": "continue"
+    },
+    {
+        "sprint": 1,
+        "day": 2,
+        "title": "Cambio de situación",
+        "description": "Una vez que todos los integrantes eligieron su acción, el Scrum master sacará una tarjeta de situación antes de comenzar la daily.",
+        "button": "situation"
+    },
+    {
+        "sprint": 1,
+        "day": 2,
+        "title": "Daily",
+        "description": "Comienza la daily. La misma no puede durar más de 2 minutos y cada integrante debe decir qué acción tomó y cuántos puntos avanza en cada una de sus tareas. Se sustraen los puntos de esfuerzo, modificados por la tarea de situación de cada tarea. Si los puntos restantes son menor o igual a cero entonces esa tarjeta pasa a revisión. Si la tarea no fue completada, queda para la siguiente jornada.",
+        "button": "timer"
+    },
+    {
+        "sprint": 1,
+        "day": 3,
+        "title": "Comienzo de la jornada",
+        "description": "Cada integrante elije una tarjeta de acción de su mano para usar como acción durante la jornada. ",
+        "button": "continue"
+    },
+    {
+        "sprint": 1,
+        "day": 3,
+        "title": "Cambio de situación",
+        "description": "Una vez que todos los integrantes eligieron su acción, el Scrum master sacará una tarjeta de situación antes de comenzar la daily.",
+        "button": "situation"
+    },
+    {
+        "sprint": 1,
+        "day": 3,
+        "title": "Daily",
+        "description": "Comienza la daily. La misma no puede durar más de 2 minutos y cada integrante debe decir qué acción tomó y cuántos puntos avanza en cada una de sus tareas. Se sustraen los puntos de esfuerzo, modificados por la tarea de situación de cada tarea. Si los puntos restantes son menor o igual a cero entonces esa tarjeta pasa a revisión. Si la tarea no fue completada, queda para la siguiente jornada.",
+        "button": "timer"
+    },
+    {
+        "sprint": 1,
+        "day": 4,
+        "title": "Comienzo de la jornada",
+        "description": "Cada integrante elije una tarjeta de acción de su mano para usar como acción durante la jornada. ",
+        "button": "continue"
+    },
+    {
+        "sprint": 1,
+        "day": 4,
+        "title": "Cambio de situación",
+        "description": "Una vez que todos los integrantes eligieron su acción, el Scrum master sacará una tarjeta de situación antes de comenzar la daily.",
+        "button": "situation"
+    },
+    {
+        "sprint": 1,
+        "day": 4,
+        "title": "Daily",
+        "description": "Comienza la daily. La misma no puede durar más de 2 minutos y cada integrante debe decir qué acción tomó y cuántos puntos avanza en cada una de sus tareas. Se sustraen los puntos de esfuerzo, modificados por la tarea de situación de cada tarea. Si los puntos restantes son menor o igual a cero entonces esa tarjeta pasa a revisión. Si la tarea no fue completada, queda para la siguiente jornada.",
+        "button": "timer"
+    },
+    {
+        "sprint": 1,
+        "day": 4,
+        "title": "Sprint review",
+        "description": " Una vez terminado el sprint, se efectúa un Sprint Review para conversar sobre cómo mejorar para su siguiente sprint. Piensen estrategias y acciones basadas en estas 5 categorías (escríbanlas en el tablero): Seguir haciendo, Hacer más, Comenzar a hacer, Hacer menos, Dejar de hacer",
+        "button": "continue"
+    },
+    {
+        "sprint": 2,
+        "day": 0,
+        "title": "Sprint Backlog:",
+        "description": "Cada sprint comienza decidiendo qué tareas tomarán para el mismo y pasando esas tareas a la columna pendiente. No se olviden de comenzar y pausar el timer.",
+        "button": "timer"
+    },
+    {
+        "sprint": 2,
+        "day": 0,
+        "title": "División de tareas",
+        "description": "Se asignan las tareas en el Trello. Las tareas elegidas pasarán a la columna en curso. Cada integrante puede elegir más de una tarea y pueden quedar tareas sin elegir aún para ser tomadas más tarde durante el sprint",
+        "button": "timer"
+    },
+    {
+        "sprint": 2,
+        "day": 1,
+        "title": "Comienzo de la jornada",
+        "description": "Cada integrante elije una tarjeta de acción de su mano para usar como acción durante la jornada. ",
+        "button": "continue"
+    },
+    {
+        "sprint": 2,
+        "day": 1,
+        "title": "Cambio de situación",
+        "description": "Una vez que todos los integrantes eligieron su acción, el Scrum master sacará una tarjeta de situación antes de comenzar la daily.",
+        "button": "situation"
+    },
+    {
+        "sprint": 2,
+        "day": 1,
+        "title": "Daily",
+        "description": "Comienza la daily. La misma no puede durar más de 2 minutos y cada integrante debe decir qué acción tomó y cuántos puntos avanza en cada una de sus tareas. Se sustraen los puntos de esfuerzo, modificados por la tarea de situación de cada tarea. Si los puntos restantes son menor o igual a cero entonces esa tarjeta pasa a revisión. Si la tarea no fue completada, queda para la siguiente jornada.",
+        "button": "timer"
+    },
+    {
+        "sprint": 2,
+        "day": 2,
+        "title": "Comienzo de la jornada",
+        "description": "Cada integrante elije una tarjeta de acción de su mano para usar como acción durante la jornada. ",
+        "button": "continue"
+    },
+    {
+        "sprint": 2,
+        "day": 2,
+        "title": "Cambio de situación",
+        "description": "Una vez que todos los integrantes eligieron su acción, el Scrum master sacará una tarjeta de situación antes de comenzar la daily.",
+        "button": "situation"
+    },
+    {
+        "sprint": 1,
+        "day": 2,
+        "title": "Daily",
+        "description": "Comienza la daily. La misma no puede durar más de 2 minutos y cada integrante debe decir qué acción tomó y cuántos puntos avanza en cada una de sus tareas. Se sustraen los puntos de esfuerzo, modificados por la tarea de situación de cada tarea. Si los puntos restantes son menor o igual a cero entonces esa tarjeta pasa a revisión. Si la tarea no fue completada, queda para la siguiente jornada.",
+        "button": "timer"
+    },
+    {
+        "sprint": 2,
+        "day": 3,
+        "title": "Comienzo de la jornada",
+        "description": "Cada integrante elije una tarjeta de acción de su mano para usar como acción durante la jornada. ",
+        "button": "continue"
+    },
+    {
+        "sprint": 2,
+        "day": 3,
+        "title": "Cambio de situación",
+        "description": "Una vez que todos los integrantes eligieron su acción, el Scrum master sacará una tarjeta de situación antes de comenzar la daily.",
+        "button": "situation"
+    },
+    {
+        "sprint": 1,
+        "day": 3,
+        "title": "Daily",
+        "description": "Comienza la daily. La misma no puede durar más de 2 minutos y cada integrante debe decir qué acción tomó y cuántos puntos avanza en cada una de sus tareas. Se sustraen los puntos de esfuerzo, modificados por la tarea de situación de cada tarea. Si los puntos restantes son menor o igual a cero entonces esa tarjeta pasa a revisión. Si la tarea no fue completada, queda para la siguiente jornada.",
+        "button": "timer"
+    },
+    {
+        "sprint": 2,
+        "day": 4,
+        "title": "Comienzo de la jornada",
+        "description": "Cada integrante elije una tarjeta de acción de su mano para usar como acción durante la jornada. ",
+        "button": "continue"
+    },
+    {
+        "sprint": 2,
+        "day": 4,
+        "title": "Cambio de situación",
+        "description": "Una vez que todos los integrantes eligieron su acción, el Scrum master sacará una tarjeta de situación antes de comenzar la daily.",
+        "button": "situation"
+    },
+    {
+        "sprint": 2,
+        "day": 4,
+        "title": "Daily",
+        "description": "Comienza la daily. La misma no puede durar más de 2 minutos y cada integrante debe decir qué acción tomó y cuántos puntos avanza en cada una de sus tareas. Se sustraen los puntos de esfuerzo, modificados por la tarea de situación de cada tarea. Si los puntos restantes son menor o igual a cero entonces esa tarjeta pasa a revisión. Si la tarea no fue completada, queda para la siguiente jornada.",
+        "button": "timer"
+    },
+    {
+        "sprint": 2,
+        "day": 4,
+        "title": "Sprint review",
+        "description": " Una vez terminado el sprint, se efectúa un Sprint Review para conversar sobre cómo mejorar para su siguiente sprint. Piensen estrategias y acciones basadas en estas 5 categorías (escríbanlas en el tablero): Seguir haciendo, Hacer más, Comenzar a hacer, Hacer menos, Dejar de hacer",
+        "button": "continue"
+    },
+    {
+        "sprint": 3,
+        "day": 0,
+        "title": "Sprint Backlog:",
+        "description": "Cada sprint comienza decidiendo qué tareas tomarán para el mismo y pasando esas tareas a la columna pendiente. No se olviden de comenzar y pausar el timer.",
+        "button": "timer"
+    },
+    {
+        "sprint": 3,
+        "day": 0,
+        "title": "División de tareas",
+        "description": "Se asignan las tareas en el Trello. Las tareas elegidas pasarán a la columna en curso. Cada integrante puede elegir más de una tarea y pueden quedar tareas sin elegir aún para ser tomadas más tarde durante el sprint",
+        "button": "timer"
+    },
+    {
+        "sprint": 3,
+        "day": 1,
+        "title": "Comienzo de la jornada",
+        "description": "Cada integrante elije una tarjeta de acción de su mano para usar como acción durante la jornada. ",
+        "button": "continue"
+    },
+    {
+        "sprint": 3,
+        "day": 1,
+        "title": "Cambio de situación",
+        "description": "Una vez que todos los integrantes eligieron su acción, el Scrum master sacará una tarjeta de situación antes de comenzar la daily.",
+        "button": "situation"
+    },
+    {
+        "sprint": 3,
+        "day": 1,
+        "title": "Daily",
+        "description": "Comienza la daily. La misma no puede durar más de 2 minutos y cada integrante debe decir qué acción tomó y cuántos puntos avanza en cada una de sus tareas. Se sustraen los puntos de esfuerzo, modificados por la tarea de situación de cada tarea. Si los puntos restantes son menor o igual a cero entonces esa tarjeta pasa a revisión. Si la tarea no fue completada, queda para la siguiente jornada.",
+        "button": "timer"
+    },
+    {
+        "sprint": 3,
+        "day": 2,
+        "title": "Comienzo de la jornada",
+        "description": "Cada integrante elije una tarjeta de acción de su mano para usar como acción durante la jornada. ",
+        "button": "continue"
+    },
+    {
+        "sprint": 3,
+        "day": 2,
+        "title": "Cambio de situación",
+        "description": "Una vez que todos los integrantes eligieron su acción, el Scrum master sacará una tarjeta de situación antes de comenzar la daily.",
+        "button": "situation"
+    },
+    {
+        "sprint": 3,
+        "day": 2,
+        "title": "Daily",
+        "description": "Comienza la daily. La misma no puede durar más de 2 minutos y cada integrante debe decir qué acción tomó y cuántos puntos avanza en cada una de sus tareas. Se sustraen los puntos de esfuerzo, modificados por la tarea de situación de cada tarea. Si los puntos restantes son menor o igual a cero entonces esa tarjeta pasa a revisión. Si la tarea no fue completada, queda para la siguiente jornada.",
+        "button": "timer"
+    },
+    {
+        "sprint": 3,
+        "day": 3,
+        "title": "Comienzo de la jornada",
+        "description": "Cada integrante elije una tarjeta de acción de su mano para usar como acción durante la jornada. ",
+        "button": "continue"
+    },
+    {
+        "sprint": 3,
+        "day": 3,
+        "title": "Cambio de situación",
+        "description": "Una vez que todos los integrantes eligieron su acción, el Scrum master sacará una tarjeta de situación antes de comenzar la daily.",
+        "button": "situation"
+    },
+    {
+        "sprint": 3,
+        "day": 3,
+        "title": "Daily",
+        "description": "Comienza la daily. La misma no puede durar más de 2 minutos y cada integrante debe decir qué acción tomó y cuántos puntos avanza en cada una de sus tareas. Se sustraen los puntos de esfuerzo, modificados por la tarea de situación de cada tarea. Si los puntos restantes son menor o igual a cero entonces esa tarjeta pasa a revisión. Si la tarea no fue completada, queda para la siguiente jornada.",
+        "button": "timer"
+    },
+    {
+        "sprint": 3,
+        "day": 4,
+        "title": "Comienzo de la jornada",
+        "description": "Cada integrante elije una tarjeta de acción de su mano para usar como acción durante la jornada. ",
+        "button": "continue"
+    },
+    {
+        "sprint": 3,
+        "day": 4,
+        "title": "Cambio de situación",
+        "description": "Una vez que todos los integrantes eligieron su acción, el Scrum master sacará una tarjeta de situación antes de comenzar la daily.",
+        "button": "situation"
+    },
+    {
+        "sprint": 3,
+        "day": 4,
+        "title": "Daily",
+        "description": "Comienza la daily. La misma no puede durar más de 2 minutos y cada integrante debe decir qué acción tomó y cuántos puntos avanza en cada una de sus tareas. Se sustraen los puntos de esfuerzo, modificados por la tarea de situación de cada tarea. Si los puntos restantes son menor o igual a cero entonces esa tarjeta pasa a revisión. Si la tarea no fue completada, queda para la siguiente jornada.",
+        "button": "timer"
+    },
+    {
+        "sprint": 3,
+        "day": 4,
+        "title": "Sprint review",
+        "description": " Una vez terminado el sprint, se efectúa un Sprint Review para conversar sobre cómo mejorar para su siguiente sprint. Piensen estrategias y acciones basadas en estas 5 categorías (escríbanlas en el tablero): Seguir haciendo, Hacer más, Comenzar a hacer, Hacer menos, Dejar de hacer",
+        "button": "continue"
+    },
+    {
+        "sprint": 4,
+        "day": 0,
+        "title": "Sprint Backlog:",
+        "description": "Cada sprint comienza decidiendo qué tareas tomarán para el mismo y pasando esas tareas a la columna pendiente. No se olviden de comenzar y pausar el timer.",
+        "button": "timer"
+    },
+    {
+        "sprint": 4,
+        "day": 0,
+        "title": "División de tareas",
+        "description": "Se asignan las tareas en el Trello. Las tareas elegidas pasarán a la columna en curso. Cada integrante puede elegir más de una tarea y pueden quedar tareas sin elegir aún para ser tomadas más tarde durante el sprint",
+        "button": "timer"
+    },
+    {
+        "sprint": 4,
+        "day": 1,
+        "title": "Comienzo de la jornada",
+        "description": "Cada integrante elije una tarjeta de acción de su mano para usar como acción durante la jornada. ",
+        "button": "continue"
+    },
+    {
+        "sprint": 4,
+        "day": 1,
+        "title": "Cambio de situación",
+        "description": "Una vez que todos los integrantes eligieron su acción, el Scrum master sacará una tarjeta de situación antes de comenzar la daily.",
+        "button": "situation"
+    },
+    {
+        "sprint": 4,
+        "day": 1,
+        "title": "Daily",
+        "description": "Comienza la daily. La misma no puede durar más de 2 minutos y cada integrante debe decir qué acción tomó y cuántos puntos avanza en cada una de sus tareas. Se sustraen los puntos de esfuerzo, modificados por la tarea de situación de cada tarea. Si los puntos restantes son menor o igual a cero entonces esa tarjeta pasa a revisión. Si la tarea no fue completada, queda para la siguiente jornada.",
+        "button": "timer"
+    },
+    {
+        "sprint": 4,
+        "day": 2,
+        "title": "Comienzo de la jornada",
+        "description": "Cada integrante elije una tarjeta de acción de su mano para usar como acción durante la jornada. ",
+        "button": "continue"
+    },
+    {
+        "sprint": 4,
+        "day": 2,
+        "title": "Cambio de situación",
+        "description": "Una vez que todos los integrantes eligieron su acción, el Scrum master sacará una tarjeta de situación antes de comenzar la daily.",
+        "button": "situation"
+    },
+    {
+        "sprint": 4,
+        "day": 2,
+        "title": "Daily",
+        "description": "Comienza la daily. La misma no puede durar más de 2 minutos y cada integrante debe decir qué acción tomó y cuántos puntos avanza en cada una de sus tareas. Se sustraen los puntos de esfuerzo, modificados por la tarea de situación de cada tarea. Si los puntos restantes son menor o igual a cero entonces esa tarjeta pasa a revisión. Si la tarea no fue completada, queda para la siguiente jornada.",
+        "button": "timer"
+    },
+    {
+        "sprint": 4,
+        "day": 3,
+        "title": "Comienzo de la jornada",
+        "description": "Cada integrante elije una tarjeta de acción de su mano para usar como acción durante la jornada. ",
+        "button": "continue"
+    },
+    {
+        "sprint": 4,
+        "day": 3,
+        "title": "Cambio de situación",
+        "description": "Una vez que todos los integrantes eligieron su acción, el Scrum master sacará una tarjeta de situación antes de comenzar la daily.",
+        "button": "situation"
+    },
+    {
+        "sprint": 4,
+        "day": 3,
+        "title": "Daily",
+        "description": "Comienza la daily. La misma no puede durar más de 2 minutos y cada integrante debe decir qué acción tomó y cuántos puntos avanza en cada una de sus tareas. Se sustraen los puntos de esfuerzo, modificados por la tarea de situación de cada tarea. Si los puntos restantes son menor o igual a cero entonces esa tarjeta pasa a revisión. Si la tarea no fue completada, queda para la siguiente jornada.",
+        "button": "timer"
+    },
+    {
+        "sprint": 4,
+        "day": 4,
+        "title": "Comienzo de la jornada",
+        "description": "Cada integrante elije una tarjeta de acción de su mano para usar como acción durante la jornada. ",
+        "button": "continue"
+    },
+    {
+        "sprint": 4,
+        "day": 4,
+        "title": "Cambio de situación",
+        "description": "Una vez que todos los integrantes eligieron su acción, el Scrum master sacará una tarjeta de situación antes de comenzar la daily.",
+        "button": "situation"
+    },
+    {
+        "sprint": 4,
+        "day": 4,
+        "title": "Daily",
+        "description": "Comienza la daily. La misma no puede durar más de 2 minutos y cada integrante debe decir qué acción tomó y cuántos puntos avanza en cada una de sus tareas. Se sustraen los puntos de esfuerzo, modificados por la tarea de situación de cada tarea. Si los puntos restantes son menor o igual a cero entonces esa tarjeta pasa a revisión. Si la tarea no fue completada, queda para la siguiente jornada.",
+        "button": "timer"
+    },
+    {
+        "sprint": "end",
+        "day": "end",
+        "title": "Fin del juego",
+        "description": "¿Cómo les fue?"
+    }
+]

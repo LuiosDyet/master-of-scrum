@@ -1,0 +1,58 @@
+[
+    {
+        "description": "Ayer justo leíste un artículo que hablaba de cómo resolver Tipos A",
+        "points": "3",
+        "special": {
+            "cardType": "Tipo A",
+            "points": "5"
+        }
+    },
+    {
+        "description": "Ayer justo leíste un artículo que hablaba de cómo resolver Tipos B",
+        "points": "3",
+        "special": {
+            "cardType": "Tipo B",
+            "points": "5"
+        }
+    },
+    {
+        "description": "Ayer justo leíste un artículo que hablaba de cómo resolver Tipos C",
+        "points": "3",
+        "special": {
+            "cardType": "Tipo C",
+            "points": "5"
+        }
+    },
+    {
+        "description": "Los problemas tipo A te apasionan",
+        "points": "5",
+        "special": {
+            "cardType": "Tipo A",
+            "points": "13"
+        }
+    },
+    {
+        "description": "Los problemas tipo B te apasionan",
+        "points": "5",
+        "special": {
+            "cardType": "Tipo B",
+            "points": "13"
+        }
+    },
+    {
+        "description": "Los problemas tipo C te apasionan",
+        "points": "5",
+        "special": {
+            "cardType": "Tipo C",
+            "points": "13"
+        }
+    },
+    {
+        "description": "Es una semana con muchos compromisos extra",
+        "points": "3",
+        "special": {
+            "cardType": "",
+            "points": ""
+        }
+    }
+]

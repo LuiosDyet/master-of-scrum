@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Ayer se cortó la luz, no pudiste avanzar nada",
+        "teamModifier": false,
+        "description": "tu tarea asignada no resta puntos de esfuerzo"
+    },
+    {
+        "title": "Estuvieron hablando informalmente sobre las tareas tipo A",
+        "teamModifier": true,
+        "description": "Todos los que estén resolviendo tareas tipo A suman 3 puntos de esfuerzo para la mismas"
+    },
+    {
+        "title": "Estuvieron hablando informalmente sobre las tareas tipo B",
+        "teamModifier": true,
+        "description": "Todos los que estén resolviendo tareas tipo B suman 3 puntos de esfuerzo para la mismas"
+    },
+    {
+        "title": "Estuvieron hablando informalmente sobre las tareas tipo C",
+        "teamModifier": true,
+        "description": "Todos los que estén resolviendo tareas tipo C suman 3 puntos de esfuerzo para la mismas"
+    }
+]
