@@ -1,0 +1,64 @@
+#board {
+    display: grid;
+    grid-template-areas:
+        'guide timer points'
+        'guide situations points'
+        'guide situations points'
+        'players players points';
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+#guide {
+    grid-area: guide;
+}
+
+#players {
+    grid-area: players;
+    flex-direction: row;
+}
+
+#situations {
+    grid-area: situations;
+}
+
+#timer {
+    grid-area: timer;
+}
+
+#points {
+    grid-area: points;
+    display: block;
+}
+
+#table-div {
+    max-height: 620px;
+    overflow-y: auto;
+}
+
+#table-div table {
+    margin-right: 10px;
+}
+
+#retro {
+    grid-area: retro;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#players-list {
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+#players-list li {
+    width: 50%;
+}

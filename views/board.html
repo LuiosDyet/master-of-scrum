@@ -6,42 +6,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Master of Scrum</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&family=Oswald:wght@300&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/board-styles.css">
     <script src="/scripts/board.js"></script>
 </head>
 
 <body>
-    <section>
-        <h2>Guía</h2>
-        <h3>Sprint <span id="sprint"></span> </h3>
-        <h3>Jornada <span id="day"></span> </h3>
-        <h3 id="title"></h3>
-        <p id="description"></p>
-        <button id="next-part">Continuar</button>
-    </section>
-    <section>
-        <h2>Situaciones</h2>
-        <h3 id="situation-card-title"></h3>
-        <p>
-            <span id="situation-card-target"></span>
-            <span id="situation-card-description">
-        </p>
+    <main id="board">
+        <section id="guide" class="bg-yellow">
+            <div>
+                <h2>Guía</h2>
+                <p>Pasos a seguir y ubicarse en qué momento del juego estmoas. Ante cualquier duda consultá con las
+                    reglas, ¡ojo que no hay botón para retroceder!
+                </p>
+                <h3>Sprint <span id="sprint"></span> </h3>
+                <h3>Jornada <span id="day"></span> </h3>
+                <h3 id="title"></h3>
+                <p id="description"></p>
+            </div>
+            <button id="next-part">Continuar</button>
+        </section>
+        <section id="players" class="bg-limegreen">
+            <div>
+                <h2>Jugadores</h2>
+                <input type="text" id="input-player-name">
+                <button id="add-player">Agregar</button>
 
-        <button id="next-situation">Próxima situación</button>
+            </div>
+            <ul id="players-list">
 
-    </section>
+            </ul>
 
-    <section>
-        <h2>Timer</h2>
-        <p> Tiempo transcurrido <span id="countdowntimer">0 </span> segundos</p>
-        <button id="timer-toggler" class="">
-            Comenzar Timer
-        </button>
-    </section>
 
-    <section>
-        <h2>Puntos</h2>
-    </section>
+        </section>
+        <section id="situations" class="bg-lightskyblue">
+            <div>
+                <h2>Situaciones</h2>
+                <h3 id="situation-card-title"></h3>
+                <p>
+                    <span id="situation-card-target"></span>
+                    <span id="situation-card-description">
+                </p>
+            </div>
+            <button id="next-situation">Próxima situación</button>
+        </section>
+        <section id="timer" class="bg-orange">
+            <div class="justify-between">
+                <h2>Timer</h2>
+                <p class="hidden" id="timer-point-subtract">Tiempo excedido <span id="timer-point"></span></p>
+            </div>
+            <p> Tiempo transcurrido <span id="timer-count">0 </span> segundos</p>
+            <button id="timer-toggler" class="">
+                Comenzar Timer
+            </button>
+        </section>
+        <section id="points" class="bg-pink">
+            <h2>Agregar puntos</h2>
+            <div class="justify-between">
+                <input type="number" class="input-number" id="input-points">
+                <button id="add-points" class="flexGrow">Agregar</button>
+            </div>
+            <h2>Puntos: <span id="total-points">0</span></h2>
+            <div id="table-div">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Sprint - Jornada</th>
+                            <th>Puntos</th>
+                        </tr>
+                    </thead>
+                    <tbody id="points-table-body">
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>

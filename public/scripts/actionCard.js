@@ -6,17 +6,33 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     async function fillActionCardSection() {
-        const actionCardSection = document.getElementById('actionCardSection');
+        const actionCardSection = document.getElementById(
+            'action-card-section'
+        );
         const actionCardData = await getActionCard();
         actionCardSection.innerHTML += `
-            <div class="actionCard">
-                    <h5 class="card-description">${actionCardData.description}</h5>
-                    <p class="card-points">Puntos de esfuerzo: ${actionCardData.points}</p>
-                    <p class="card-points-specials">Puntos de para actividades de ${actionCardData.special.cardType}: ${actionCardData.special.points}</p>
-                    <button class="commit-button hidden">Utilizar acción</button>
-            </div>
+            <article class="action-card ${cardColor()}">
+                <div>
+                    <h5 class="card-description">${
+                        actionCardData.description
+                    }</h5>
+                    <p class="card-points">Puntos de esfuerzo: ${
+                        actionCardData.points
+                    }</p>
+                   ${
+                       actionCardData.special.cardType
+                           ? '<p class="card-points-specials">Puntos de esfuerzo para actividades de' +
+                             actionCardData.special.cardType +
+                             ':' +
+                             actionCardData.special.points +
+                             '</p>'
+                           : ''
+                   } 
+                </div>
+                <button class="commit-button hidden">Utilizar acción</button>
+            </article>
         `;
-        const actionCards = document.querySelectorAll('.actionCard');
+        const actionCards = document.querySelectorAll('.action-card');
 
         if (actionCards.length >= 4) {
             addEventListeners();
@@ -27,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
     fillActionCardSection();
 
     function addEventListeners() {
-        const actionCards = document.querySelectorAll('.actionCard');
+        const actionCards = document.querySelectorAll('.action-card');
         if (actionCards.length > 0) {
             actionCards.forEach((actionCard) => {
                 actionCard.addEventListener('click', () => {
@@ -38,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function selectActionCard(actionCard) {
-        const actionCards = document.querySelectorAll('.actionCard');
+        const actionCards = document.querySelectorAll('.action-card');
         const commitButtons = document.querySelectorAll('.commit-button');
         actionCards.forEach((actionCard) => {
             actionCard.classList.remove('selected');
@@ -57,5 +73,19 @@ document.addEventListener('DOMContentLoaded', function () {
     function commitActionCard(actionCard) {
         actionCard.remove();
         fillActionCardSection();
+    }
+
+    let currentCardColorIndex = 0;
+    function cardColor() {
+        const colors = [
+            'bg-yellow',
+            'bg-limegreen',
+            'bg-lightskyblue',
+            'bg-orange',
+            'bg-pink',
+            'bg-tan',
+            'bg-lightblue',
+        ];
+        return colors[currentCardColorIndex++ % colors.length];
     }
 });

@@ -1,5 +1,127 @@
+body {
+    /* background: rgb(59, 8, 103);
+    background: linear-gradient(
+        328deg,
+        rgba(59, 8, 103, 1) 0%,
+        rgba(5, 5, 37, 1) 58%
+    ); */
+    background-color: darkslategrey;
+    margin: 0;
+    min-height: 100vh;
+}
+
+main {
+    margin: 0 auto;
+    padding: 1.5rem 1rem;
+}
+
 section {
     border: 2px solid black;
     padding: 10px;
     margin: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Carrois Gothic SC', sans-serif;
+    color: black;
+}
+
+h5 {
+    font-size: 1.2rem;
+}
+
+p,
+li,
+th,
+td {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    color: black;
+}
+
+button {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+}
+
+input {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+}
+
+.input-number {
+    text-align: center;
+    width: 5rem;
+    margin-right: 1rem;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+td {
+    text-align: center;
+}
+
+tr :first-child {
+    border-right: 2px solid black;
+}
+
+.justify-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexGrow {
+    flex-grow: 1;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-limegreen {
+    background-color: limegreen;
+}
+
+.bg-lightskyblue {
+    background-color: lightskyblue;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.bg-pink {
+    background-color: pink;
+}
+
+.bg-tan {
+    background-color: tan;
+}
+
+.bg-lightblue {
+    background-color: lightblue;
+}
+
+.bg-white {
+    background-color: white;
 }
